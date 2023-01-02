@@ -1,11 +1,15 @@
-# Sales_Predictions Data Report
+# Sales Predictions Data Report
 Cameron Bannick
 # Issue Adressed
-The goal was to provide some insight as to how much money we were making from each item and maximize on those insights.
+This project consisted of two main sections, out exploratory data analysis with data visualizations and two models with the goal of gaining insight and predicting an items total outlet sales.
 # Data Provided
-Data provided gave us eavh item with its retail price, type of food, market type, visibility to find possible insights. 
+The Data provided originally had the features of: 
+Item_Identifier	Item_Weight	Item_Fat_Content	Item_Visibility	Item_Type	Item_MRP	Outlet_Identifier	Outlet_Establishment_Year	Outlet_Size	Outlet_Location_Type	Outlet_Type	Item_Outlet_Sales 
+However, all visualizations and models were created using only:
+Item_Fat_Content	Item_Visibility	Item_Type	Item_MRP	Item_Outlet_Sales
+This was because these were the only features that had to do with the individual items themselves.
 # Results 
-First Visualization showed the Median of each items profits was 2000 dollars
-Unfortunately the heatmap did not show us many correlations to anything 
-I ran two models, one Linear Regression and one Bagged Tree and the Bagged Tree was the best option due to the better R2 score. However both models had a high MSE. My reccomendation would be to collect an expanded Data Set and see if more Data would improve on our error.
+## Data Visualizations 
+![img]('Count of items by outlet sales.jpg')
+
 
