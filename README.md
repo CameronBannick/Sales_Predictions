@@ -24,7 +24,8 @@ The Bar Plot shows us the average outlet item sales by item type. While there ar
 ## Model Results
 Four models were created using two different types of model, one default and one with adjusted parameters. The reccomended model was labeled 'Model-1B', it did the best in understanding the variance in the data, understanding relationships, however the models error is about $1335.56.
 
-
+# Conclusions
+On average, it seems all item types bring in the same amount of revenue. Most revenue comes from items that bring in between $1000 and $3500 dollars with some outliers above and below this range.
 
 
 
