@@ -20,7 +20,7 @@ Item_Outlet_Sales:         Total item outlet sales
  ### Item information 
  #### Item outlet sales
 ![image]([https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_sales_boxplot.png])
-![image](https://user-images.githubusercontent.com/109917853/210279362-65a5b3c2-d2aa-47cc-bbdb-7ed153543de3.png)
+![image]([https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_sales_histogram.png])
 The boxplot shows us similar information, with two more good pieces of information. The bulk of the items provided earn $1000 and $3500 dollars and everything about about $6300 is an outlier, meaning it is an exception to the norm of the sales. 
 ### Do certain Item Types on average bring in more revenue?
 ![image](https://user-images.githubusercontent.com/109917853/210279722-63178a88-ece5-452f-933a-3b2ba1f6a6bc.png)
