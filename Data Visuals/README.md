@@ -4,7 +4,7 @@
     insights that can aid in potential growth for the franchise.The goal of this report is exactly that.
 ## The data
 Item_Identifier:           Unique identifier       
-Item_Weight:               Items weight lbs        
+Item_Weight:               Items weight (lbs)        
 Item_Fat_Content:          Low fat or regular fat  
 Item_Visibility:           Metric for visibility   
 Item_Type:                 Food group               
@@ -17,9 +17,9 @@ Outlet_Type:               Store type
 Item_Outlet_Sales:         Total item outlet sales   
 
 ## Exploratory data analysis
- ### How much revenue does each item bring in?
-![image](https://user-images.githubusercontent.com/109917853/210278775-4797fae2-ee4f-4fd6-9b50-8beb7c4f314a.png)
-The histogram shows the distribution of how many items (Item Count) have an Item Outlet Sale of a certain amount (Item Outlet Sales ($)) It shows our minimum and maximum sales as well as the mean (average) and it shows us that most items bring in sales between $34 and $2200.
+ ### Item information 
+ #### Item outlet sales
+![image]([https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_sales_boxplot.png])
 ![image](https://user-images.githubusercontent.com/109917853/210279362-65a5b3c2-d2aa-47cc-bbdb-7ed153543de3.png)
 The boxplot shows us similar information, with two more good pieces of information. The bulk of the items provided earn $1000 and $3500 dollars and everything about about $6300 is an outlier, meaning it is an exception to the norm of the sales. 
 ### Do certain Item Types on average bring in more revenue?
