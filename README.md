@@ -1,19 +1,23 @@
-# Sales Predictions Data Report
-The goal is understand the relationship between characteristics of items and how much revenue they generate.
-# Data Dictionary
+# Sales Report
+## Introduction
+    As the grocery franchise approached its third decade of operation, it was decided to analyze the data collected over the years to find 
+    insights that can aid in potential growth for the franchise.The goal of this report is exactly that.
+## The data
+Item_Identifier:           Unique identifier       
+Item_Weight:               Items weight lbs        
+Item_Fat_Content:          Low fat or regular fat  
+Item_Visibility:           Metric for visibility   
+Item_Type:                 Food group               
+Item_MRP:                  Item price              
+Outlet_Identifier:         Unique Identifier        
+Outlet_Establishment_Year: Year opened       
+Outlet_Size:               Store size       
+Outlet_Location_Type:      Location type    
+Outlet_Type:               Store type      
+Item_Outlet_Sales:         Total item outlet sales   
 
--Item_Fat_Content:	Described as Low Fat or Regular
-
--Item_Visibility: A percentage quanifying how easily items were seen by customers
-
--Item_Type: Which food group the item in questioning 
-
--Item_MRP: How much the product is sold for
-
--Item_Outlet_Sales: How much money the item generated
-
-# Questions adressed 
- ## How much revenue does each item bring in?
+## Exploratory data analysis
+ ### How much revenue does each item bring in?
 ![image](https://user-images.githubusercontent.com/109917853/210278775-4797fae2-ee4f-4fd6-9b50-8beb7c4f314a.png)
 The histogram shows the distribution of how many items (Item Count) have an Item Outlet Sale of a certain amount (Item Outlet Sales ($)) It shows our minimum and maximum sales as well as the mean (average) and it shows us that most items bring in sales between $34 and $2200.
 ![image](https://user-images.githubusercontent.com/109917853/210279362-65a5b3c2-d2aa-47cc-bbdb-7ed153543de3.png)
