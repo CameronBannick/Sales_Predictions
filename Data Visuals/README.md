@@ -19,14 +19,34 @@ Item_Outlet_Sales:         Total item outlet sales
 ## Exploratory data analysis
  ### Item information 
  #### Item outlet sales
-![image]([https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_sales_boxplot.png])
-![image]([https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_sales_histogram.png])
-The boxplot shows us similar information, with two more good pieces of information. The bulk of the items provided earn $1000 and $3500 dollars and everything about about $6300 is an outlier, meaning it is an exception to the norm of the sales. 
-### Do certain Item Types on average bring in more revenue?
-![image](https://user-images.githubusercontent.com/109917853/210279722-63178a88-ece5-452f-933a-3b2ba1f6a6bc.png)
-The Bar Plot shows us the average outlet item sales by item type. While there are a few dips, each type of item brings in a roughly similar amount have no significant outliers to be seen.
-## Model Results
-Four models were created using two different types of model, one default and one with adjusted parameters. The reccomended model was labeled 'Model-1B', it did the best in understanding the variance in the data, understanding relationships, however the models error is about $1335.56.
+
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_sales_boxplot.png)
+
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_sales_histogram.png)
+
+The majority of item sales occur between $834.25 and $3101.30 with the middle of all the data points being $1794.33. The average item outlet sales is $2181.29. Since our middle (median) and average are far away from each other, this implies there are a lot of outliers. The outliers can be seen as diamonds on the boxplot above. 
+
+#### Item outlet sales and item mrp.
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/Item_mrp_outlet_sales.png)
+
+The above scatterplot shows a correlation coeficient of 0.57 for item outlet sales and item mrp, which is a moderate strong correlation.
+
+#### Item outlet sales and item visibility 
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/item_visibility_item_sales.png)
+
+This next scatterplot shows a correlation coeficient of -0.13 between item outlet sales and item visibility, which is a very weak relationship.
+
+####
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/sales_over_weight.png)
+
+Lastly, our last scatterplot shows a virtually non existent relationship between item outlet sales and item weight.
+
+## Predictive models
+Two different versions (a tuned and an untuned) of three different models were made for a total of six.
+
+### Decision tree
+
+
 
 # Conclusions
 On average, it seems all item types bring in the same amount of revenue. Most revenue comes from items that bring in between $1000 and $3500 dollars with some outliers above and below this range.
