@@ -42,14 +42,20 @@ This next scatterplot shows a correlation coeficient of -0.13 between item outle
 Lastly, our last scatterplot shows a virtually non existent relationship between item outlet sales and item weight.
 
 ## Predictive models
-Two different versions (a tuned and an untuned) of three different models were made for a total of six.
+Two different versions (a tuned and an untuned) of three different models were made for a total of six. The mertics used were Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE). MSE is scored by taking the distances from the predicted value from the actual value and multiplying it by itsel, this is to penalize larger errors more. The closer the score is to 0 the better. The RMSE is similar except you don't mulyiply the number, this gives a feel for the overall error. Lastly, the MAE gives the average error regardless if the error is positive or negative. Using all three intadem will give a clearer picture of whats going on.
 
-### Decision tree
+### Decision tree 
+A Decision Tree algorith works like being interviewed on a podcast. The host asks you a series of questions and by the end you get a prediction of what kind of person you are. This algorithm starts with one question that branches out with even more questions until it comes back with a prediction. 
+
+#### Untuned model
+MAE: 0.00000000000000010671
+MSE: 0.000000000000000000000000000024
+RMSE: 0.00000000000000492586
 
 
 
-# Conclusions
-On average, it seems all item types bring in the same amount of revenue. Most revenue comes from items that bring in between $1000 and $3500 dollars with some outliers above and below this range.
+
+
 
 
 
