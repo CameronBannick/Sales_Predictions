@@ -36,7 +36,7 @@ The above scatterplot shows a correlation coeficient of 0.57 for item outlet sal
 
 This next scatterplot shows a correlation coeficient of -0.13 between item outlet sales and item visibility, which is a very weak relationship.
 
-####
+#### Item outlet sales and item visibility
 ![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/sales_over_weight.png)
 
 Lastly, our last scatterplot shows a virtually non existent relationship between item outlet sales and item weight.
@@ -52,8 +52,34 @@ MAE: 0.00000000000000010671
 MSE: 0.000000000000000000000000000024
 RMSE: 0.00000000000000492586
 
+The error in this model is virtually non-existant. If it's true than the model can predit item sales by less than half a penny. I would advise caution when considering this model.
 
+#### Tuned model
+MAE: 762.61
+MSE: 1172122.77
+RMSE: 1082.65
 
+The MAE tells us that the average error in the model was 762.61, this could be in a positive or negative direction. The MSE is over a million, so there could have been a lot of large errors. Alternatively, this could be due to the outliers in the data. The RMSE tells us the model can predict sales within 1082.65.
+
+### Random forest
+Let's say you had a problem in your personal or professional life, chances are you would seek advice from many different people. Then, you would take all of those pieces of advice to inform your plan of action. In the case of the Random Forest Algorithm, each person you ask for advice is a decision tree creating a forest of opinions that help inform a prediction.
+
+#### Untuned model
+MAE: 296.98
+MSE: 183498.95
+RMSE: 428.37
+
+The MAE tells us that the average error in the model was 296.98, this could be in a positive or negative direction. The MSE is 183498.95, so there could have been some of large errors. Alternatively, this could be due to the outliers in the data. The RMSE tells us the model can predict sales within 428.37.
+
+#### Tuned model
+MAE: 724.74
+MSE: 1057240.99
+RMSE: 1028.22
+
+The MAE tells us that the average error in the model was 724.74, this could be in a positive or negative direction. The MSE is over a million, so there could have been a lot of large errors. Alternatively, this could be due to the outliers in the data. The RMSE tells us the model can predict sales within 1028.22.
+
+### XGBoost 
+Imagine you're taking a quiz, except for this quiz you access to a myriad of experts in different field of study. You could consult each expert . In the case of the XGBoost algrorithm, the experts are each decision trees that combinr their expert opinions that even can learn from their mistakes. 
 
 
 
