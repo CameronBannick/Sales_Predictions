@@ -79,7 +79,66 @@ RMSE: 1028.22
 The MAE tells us that the average error in the model was 724.74, this could be in a positive or negative direction. The MSE is over a million, so there could have been a lot of large errors. Alternatively, this could be due to the outliers in the data. The RMSE tells us the model can predict sales within 1028.22.
 
 ### XGBoost 
-Imagine you're taking a quiz, except for this quiz you access to a myriad of experts in different field of study. You could consult each expert . In the case of the XGBoost algrorithm, the experts are each decision trees that combinr their expert opinions that even can learn from their mistakes. 
+Imagine you're taking a quiz, except for this quiz you access to a myriad of experts in different field of study. You could consult each expert . In the case of the XGBoost algrorithm, the experts are each decision trees that combinr their expert opinions that even can learn from their mistakes giving us it's best prediction. 
+
+#### Untuned model
+MAE: 457.76
+MSE: 403082.89
+RMSE: 634.89
+
+The MAE tells us that the average error in the model was 457.76, this could be in a positive or negative direction. The MSE is 403082.89, so there could have been some of large errors. Alternatively, this could be due to the outliers in the data. The RMSE tells us the model can predict sales within 634.89.
+
+**Feature Importance:**
+item_weight: 0.0032266636844724417
+item_fat_content: 0.0
+item_visibility: 0.005109422840178013
+item_type: 0.0039376430213451385
+**item_mrp: 0.008135724812746048**
+outlet_establishment_year: 0.0038489806465804577
+**outlet_size: 0.006368603557348251**
+outlet_location_type: 0.004086561966687441
+**outlet_type: 0.005701855290681124**
+
+#### Tuned model
+MAE: 734.10
+MSE: 1079569.68
+RMSE: 1039.02
+
+The MAE tells us that the average error in the model was 734.10, this could be in a positive or negative direction. The MSE is over a million, so there could have been a lot of large errors. Alternatively, this could be due to the outliers in the data. The RMSE tells us the model can predict sales within 1039.02.
+
+**Feature Importance:**
+item_weight: 0.0015420609852299094
+item_fat_content: 0.0
+item_visibility: 0.0
+item_type: 0.00264928606338799
+i**tem_mrp: 0.004750597290694714**
+outlet_establishment_year: 0.002885641297325492
+**outlet_size: 0.008301385678350925**
+**outlet_location_type: 0.003716213395819068**
+outlet_type: 0.010065117850899696
+
+## Results and interpretations
+
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/store_sales_sum_type.png)
+
+The statistical analysis showed a significant different in sales between outlet types, more than half of sales come from Supermarket Type 1.
+
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/store_sum_sales.png)
+
+It also showed a significant difference in sales by outlet size. The majority of item sales come from medium sized stores. 
+
+![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/total_item_type_sales.png)
+
+There is a significant difference in sales by item type. The highest selling products are Fruits/Vegetables, Snack Foods, and household products. 
+
+There was no relationship found between sales and item visibility/item visibility. 
+A moderate realtionship was found between Item MRP and outlet sales. 
+
+## Limitations
+No information was given in regards to the brand of specfic type of food were given. With that information, greater insights can be made.
+
+## Recomendations
+
 
 
 
