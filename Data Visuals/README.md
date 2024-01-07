@@ -131,13 +131,20 @@ It also showed a significant difference in sales by outlet size. The majority of
 
 There is a significant difference in sales by item type. The highest selling products are Fruits/Vegetables, Snack Foods, and household products. 
 
-There was no relationship found between sales and item visibility/item visibility. 
-A moderate realtionship was found between Item MRP and outlet sales. 
+There was no relationship found between sales and item visibility/item visibility as shown previously.
+A moderate realtionship was found between Item MRP and outlet sales as shown previously
 
 ## Limitations
-No information was given in regards to the brand of specfic type of food were given. With that information, greater insights can be made.
+The information regarding each item was very limiting, for example no brands were given to the items, 
 
 ## Recomendations
+If you wish to procede deploying a model I would reccomend the untuned random forrest model, however the features in the dataset were very limiting in some regards. For example, there was no information regarding the brand or the actual item itself aside from the unique indicator. 
+
+## Conclusion
+While insights were made into what features in the dataset related most to item outlet sales, they were made with very limited information in regards to the items. 
+
+## Next Steps
+I believe we should test these findings against some more brand and name specific data points. While we found some food types might be the highest selling, know the top brands of each type. I believe there are some similar insights we will find in regards to outlet size and types. I am also fairly confident we could created a more accurate model.
 
 
 
