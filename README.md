@@ -34,7 +34,7 @@ The above scatterplot shows a correlation coefficient of 0.57 for item outlet sa
 #### Item outlet sales and item visibility 
 ![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/item_visibility_item_sales.png)
 
-This next scatterplot shows a correlation coeficient of -0.13 between item outlet sales and item visibility, which is a very weak relationship.
+This next scatterplot shows a correlation coefficient of -0.13 between item outlet sales and item visibility, which is a very weak relationship.
 
 #### Item outlet sales and item visibility
 ![image](https://github.com/CameronBannick/Sales_Predictions/blob/main/Data%20Visuals/sales_over_weight.png)
